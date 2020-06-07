@@ -2,9 +2,8 @@
     --primary-text-color: #757575;
     --accent-color: #2196F3;
     --title-text-color: #212121;
-    --footer-text-color: rgba(255, 255, 255, 0.4);
+    --footer-text-color: rgba(255, 255, 255, 0.6);
     --footer-background-color: #2F303A;
-    --main-background-color: #E5E5E5;
     --section-background: #F5F4FA;
     --white-color: #FFFFFF;
 
@@ -18,7 +17,7 @@ body{
     font-size: 14px;
     font-weight: 400;
     letter-spacing: 0.03em;
-    
+
 }
 
 ul a,
@@ -31,9 +30,18 @@ h3{
     color: var(--title-text-color);
 }
 
+h2{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.16;
+    text-align: center;
+}
+
 ul li{
     list-style: none;
 }
+
+
 
 /*LOGO*/
 .logo{
@@ -53,6 +61,8 @@ ul li{
 .logo .logo-footer{
     color: var(--white-color);
 }
+
+
 
 /*HEADER*/
 header{
@@ -83,6 +93,7 @@ header{
 }
 
 
+
 /*HERO*/
 .hero{
     background: rgba(47, 48, 58, 0.8);
@@ -104,10 +115,102 @@ header{
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
+}
+
+.button:focus,
+.button:hover{
 
 }
+
+
+/*Преимущества*/
+.section .section-title{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.section .text{
+    line-height: 1.71;
+}
+
+.features p{
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--white-color);
+    background: rgba(47, 48, 58, 0.8);
+}
+
+
+
+
+/*TEAM*/
+.team{
+    background-color: var(--section-background)
+}
+
+.team .team-name{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.team p{
+    color: var(--primary-text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+
+
+/*Social*/
+a[aria-label="instagram"]:hover,
+a[aria-label="instagram"]:focus{
+    background-color: var(--accent-color);
+}
+
+
+
+/*Наши клиенты*/
+.client .client-link:hover,
+.client .client-link:focus{
+    color: var(--accent-color)
+}
+
+
 
 /*FOOTER*/
 footer{
     background-color: var(--footer-background-color);
+    color: var(--white-color);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+.address{
+    font-weight: 400;
+    font-style: normal;
+}
+
+.address-link{
+   color: var(--footer-text-color);
+}
+
+.join-in{
+font-weight: bold;
+line-height: 1.14;
+text-transform: uppercase;
+}
+
+.footer-text{
+font-size: 12px;
+line-height: 2;
+text-align: center;
+color: rgba(255, 255, 255, 0.4); 
 }
