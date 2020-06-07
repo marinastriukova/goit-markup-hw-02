@@ -117,11 +117,6 @@ header{
     letter-spacing: 0.06em;
 }
 
-.button:focus,
-.button:hover{
-
-}
-
 
 /*Преимущества*/
 .section .section-title{
@@ -193,6 +188,7 @@ footer{
     font-size: 14px;
     line-height: 1.71;
 }
+
 .address{
     font-weight: 400;
     font-style: normal;
@@ -213,4 +209,40 @@ font-size: 12px;
 line-height: 2;
 text-align: center;
 color: rgba(255, 255, 255, 0.4); 
+}
+
+
+/*PORTFOLIO*/
+.filter{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+}
+
+.filter:hover,
+.filter:focus{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+}
+
+.projects-list .title{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    text-align: left;
+}
+
+.description{
+    font-size: 18px;
+    line-height: 1.55;
+    color: var(--white-color);
+    background: rgba(33, 150, 243, 0.9);
+}
+
+.category{
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--primary-text-color);
 }
