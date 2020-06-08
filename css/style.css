@@ -197,6 +197,10 @@ footer{
 .address-link{
    color: var(--footer-text-color);
 }
+.address-link:hover,
+.address-link:focus{
+    color: var(--accent-color)
+}
 
 .join-in{
 font-weight: bold;
